@@ -16,7 +16,7 @@ const langEl = document.querySelector('.langWrap');
 		});
 		
 		var data = {
-			  "englis": 
+			  "english": 
 			  {
 			    "title": "Hello World",
 			    "description": 
