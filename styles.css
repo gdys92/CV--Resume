@@ -22,7 +22,8 @@ body{
 
 .resume_wrapper .resume_left{
 	width: 35%;
-	background: #26252d;
+    background: #07124b;
+};
 }
 
 .resume_wrapper .resume_left .resume_image{
@@ -170,7 +171,9 @@ body{
 	width: 100%;
 	height: 100%;
 }
-
+.container {
+	text-align: end
+}
 .resume_wrapper .resume_right{
 	width: 65%;
 	padding: 20px 40px;
@@ -197,7 +200,6 @@ body{
 }
 
 .resume_wrapper .resume_right .resume_data .year{
-	padding-right: 35px;
 	width: 115px;
 	position: relative;
 }
@@ -229,7 +231,14 @@ body{
     height: 90%;
     background: #0175b2;
 }
-
+.worksub {
+	font-size: 13px;
+	font-weight: 500;
+}
+h5 {
+	font-size: 13px;
+	font-weight: 500;
+}
 .resume_wrapper .resume_right .resume_data:last-child .year:after{
 	display: none;
 }

@@ -8,7 +8,8 @@ const langEl = document.querySelector('.langWrap');
 	const ResumeTitleEl4 = document.querySelector('.resume_title4');
 	const ResumeTitleEl5 = document.querySelector('.resume_title5');
 	const ResumeTitleEl6 = document.querySelector('.resume_title6');
-	const ResumeWorkSub = document.querySelector('.worksub');
+	const Worksub = document.querySelector('h4');
+	const Edusub = document.querySelector('h5');
 	
 
 		link.forEach(el => {
@@ -26,7 +27,8 @@ const langEl = document.querySelector('.langWrap');
 				ResumeTitleEl4.textContent = data[attr].resume_title4;
 				ResumeTitleEl5.textContent = data[attr].resume_title5;
 				ResumeTitleEl6.textContent = data[attr].resume_title6;
-				ResumeWorkSub = textContent = data[attr].worksub;
+				Worksub.textContent = data[attr].h4;
+				Edusub.textContent = data[attr].h5;
 			});
 		});
 		
@@ -41,8 +43,8 @@ const langEl = document.querySelector('.langWrap');
 				"resume_title4": "Experience",
 				"resume_title5": "Education",
 				"resume_title6": "INTERESTS",
-				"worksub": "Assemble the visual presentation of the template in PSD or some other format for vector graphics. MEAN application development (Angular, Express.js, Node.js and MongoDB).MERN application development (React.js, Express.js, Next.js, Node.js and MongoDB) .Testing in multiple browsers and devices. Responsive/ mobile design.",
-				
+				"h4": "Assemble the visual presentation of the template in PSD or some other format for vector graphics. MEAN application development (Angular, Express.js, Node.js and MongoDB).MERN application development (React.js, Express.js, Next.js, Node.js and MongoDB) .Testing in multiple browsers and devices. Responsive/ mobile design.",
+				"h5":"HTML AND CSS: Website layout using HTML and apply the styles you want with CSS. JavaScript: Each behavior that happens on a website, define actions, and communicate with external services is captured. BACK-END: Applications that persistently store data will be performed using database management."
 
 
 			  },
@@ -56,7 +58,7 @@ const langEl = document.querySelector('.langWrap');
 				"resume_title4": "Experiencia",
 				"resume_title5": "Educación",
 				"resume_title6": "Pasatiempos",
-				"worksub": "Armar la presentación visual de la plantilla en PSD o en algún otro formato para gráficos vectoriales. Desarrollo de aplicaciones MEAN (Angular, Express.js, Node.js y MongoDB). Desarrollo de aplicaciones MERN (React.js, Express.js, Next.js, Node.js y MongoDB). Testeo en múltiples navegadores y dispositivos. Diseño responsive/mobile.",
-				
+				"h4": "Armar la presentación visual de la plantilla en PSD o en algún otro formato para gráficos vectoriales. Desarrollo de aplicaciones MEAN (Angular, Express.js, Node.js y MongoDB). Desarrollo de aplicaciones MERN (React.js, Express.js, Next.js, Node.js y MongoDB). Testeo en múltiples navegadores y dispositivos. Diseño responsive/mobile.",
+				"h5": "HTML Y CSS Se aprende a estructurar tu sitio web mediante HTML y a aplicar los estilos que desees con CSS. JAVASCRIPT Se aprende a capturar cada comportamiento que suceda en tu sitio web, definir acciones y comunicarte con servicios externos. BACK-END Se aprende a a realizar aplicaciones que almacenen los datos de forma persistente mediante la administración de bases de datos."
 			  },
 			}
