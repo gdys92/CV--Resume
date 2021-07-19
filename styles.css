@@ -139,7 +139,7 @@ body{
 	color: #84838b;
 }
 .role {
-	color: #0e6593;
+	color: #0175b2;
 }
 .resume_wrapper .resume_left .resume_contact .resume_info:last-child{
 	 margin-top: 10px;
@@ -176,10 +176,15 @@ body{
 }
 a {
 	text-decoration: none;
-	background: #3f51b5;
-	color: #fff;
-	font-size: 15px;
+    background: #0175b2;
+    color: #fff;
+    font-size: 15px;
     font-weight: 600;
+    border: 5px solid #0175b2;
+    border-radius: 11px;
+}
+a:hover {
+	background: #07124b;
 }
 .resume_wrapper .resume_right{
 	width: 65%;
@@ -193,7 +198,7 @@ a {
 }
 
 .resume_wrapper .resume_right .resume_namerole .role{
-	font-size: 14px;
+	font-size: 16px;
 	text-transform: uppercase;
 }
 
@@ -224,8 +229,8 @@ a {
 	right: 0;
 	width: 10px;
 	height: 10px;
-	background: #fff;
-	border: 1px solid #26252d;
+	background: #0175b2;
+	border: 1px solid #ffffff;
 	border-radius: 50%;
 }
 
