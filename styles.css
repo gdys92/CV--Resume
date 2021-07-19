@@ -34,8 +34,68 @@ body{
 	display: block;
 }
 
-.resume_wrapper .resume_title{
+.resume_wrapper .resume_title1 .resume_title2 .resume_title3 .resume_title4 .resume_title5 .resume_title6{
 	color: #fff;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 16px;
+	margin-bottom: 10px;
+	letter-spacing: 4px;
+}
+
+
+.resume_title1 {
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 16px;
+	margin-bottom: 10px;
+	letter-spacing: 4px;
+}
+
+.resume_title2 {
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 16px;
+	margin-bottom: 10px;
+	letter-spacing: 4px;
+}
+
+.resume_title3 {
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 16px;
+	margin-bottom: 10px;
+	letter-spacing: 4px;
+}
+
+
+.resume_title4 {
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 16px;
+	margin-bottom: 10px;
+	letter-spacing: 4px;
+}
+.work {
+	font-weight: 600;
+	margin-bottom: 10px;
+}
+
+.resume_title5 {
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 16px;
+	margin-bottom: 10px;
+	letter-spacing: 4px; 
+}
+.education {
+	font-weight: 600;
+	margin-bottom: 10px;
+}
+.resume_title6 {
 	text-transform: uppercase;
 	font-weight: 700;
 	font-size: 16px;
@@ -46,6 +106,7 @@ body{
 .resume_wrapper .resume_left .resume_info{
 	color: #84838b;
 }
+
 
 .resume_wrapper .resume_left .resume_bottom{
 	padding: 20px 30px;
@@ -73,10 +134,12 @@ body{
 	letter-spacing: 4px;
 }
 
-.resume_wrapper .resume_left .resume_namerole .role{
+.resume_wrapper .resume_left .resume_namerole {
 	color: #84838b;
 }
-
+.role {
+	color: #0e6593;
+}
 .resume_wrapper .resume_left .resume_contact .resume_info:last-child{
 	 margin-top: 10px;
 }
@@ -124,7 +187,8 @@ body{
 	text-transform: uppercase;
 }
 
-.resume_wrapper .resume_right .resume_item .resume_title{
+
+.resume_wrapper .resume_right .resume_item .resume_title1 .resume_title2 .resume_title3{
 	color: #26252d;
 }
 
